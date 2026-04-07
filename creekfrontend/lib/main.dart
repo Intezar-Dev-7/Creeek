@@ -1,4 +1,4 @@
-import 'package:creekfrontend/features/splash_screen/splash_screen.dart';
+import 'package:creekfrontend/features/splash_screen/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

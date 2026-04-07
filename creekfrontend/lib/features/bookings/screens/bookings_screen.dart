@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Shows all the bookings of the user
 class BookingsScreen extends StatefulWidget {
   const BookingsScreen({super.key});
 
@@ -10,7 +11,7 @@ class BookingsScreen extends StatefulWidget {
 class _BookingsScreenState extends State<BookingsScreen> {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Text("Bookings Screen", style: TextStyle(color: Colors.black)),
     );
   }
